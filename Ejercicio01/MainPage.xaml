@@ -12,7 +12,7 @@
                     FontFamily="Verdana" FontSize="16" FontAttributes="Bold" Margin="5">
             </Button>
 
-            <Button x:Name="bton2">
+            <Button x:Name="bton2" Clicked="clickBton2">
 
                 <Button.Text>Botón 2</Button.Text>
                 <Button.BackgroundColor>blue</Button.BackgroundColor>

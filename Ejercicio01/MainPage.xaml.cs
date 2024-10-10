@@ -28,13 +28,23 @@
             if (!btonCreado)
             {
                 btonCreado = true;
+                bton3.Clicked += bton3_Clicked;
                 VSLButtom.Add(bton3);
 
+            }
+            else
+            {
+                VSLButtom.IsVisible = true;
             }
 
 
         }
 
+        private void bton3_Clicked(object sender, EventArgs e)
+        {
+            bton2.Text = "Me llamo Amaru";
+            VSLButtom.Remove(bton1);
+        }
     }
 
 }

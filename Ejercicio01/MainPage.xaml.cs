@@ -42,7 +42,7 @@
 
         private void bton3_Clicked(object sender, EventArgs e)
         {
-            bton2.Text = "Me llamo Amaru";
+            bton2.Text = "Crear controles en tiempo de ejecución mola";
             VSLButtom.Remove(bton1);
         }
     }
